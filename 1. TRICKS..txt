@@ -1,0 +1,26 @@
+# To Prevent Output in a New Line.
+
+print("Hello", end="")
+
+#To print a multiplication table.
+
+        print(f"{number} x {i} = {number*i}")
+
+# To put period after a string.
+
+        print("The number is",str(num)+".")
+
+# Removing The Spaces From Before & After The String.
+
+	string.strip()
+
+# Changing A String Into A List.
+
+	string.split()
+
+#Bonus
+
+        .pop
+        .index
+        .count
+        #are called methods

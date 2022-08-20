@@ -1,0 +1,31 @@
+// Ascending Order.
+
+#include <stdio.h>
+int main()
+{
+    int i, a[4], j,temp;
+    printf("Enter any four numbers: \n");
+    for (i=0;i<4;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for (i=0;i<4;i++)
+    {
+        for (j=i+1;j<4;j++)
+        {
+            if (a[i]>a[j])
+            {
+                temp = a[j];
+                a[j]=a[i];
+                a[i]=temp;
+            }
+        }
+    }
+    printf("In Ascending Order:\n");
+    for (i=0;i<4;i++)
+    {
+        printf("%d\n",a[i]);
+    }
+    return 0;
+}
+    

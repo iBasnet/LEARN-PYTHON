@@ -1,0 +1,1 @@
+{'name': 'Cozey', 'age': '16', 'class': '11', 'address': 'Nepal'}
